@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+fieldset {
+    display: inline-block;
+    width: 30vw;
+    margin: 30vh auto auto 35vw;
+}
+
+table {
+    padding: 10px;
+}

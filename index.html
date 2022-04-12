@@ -15,40 +15,67 @@
             <legend>Register form</legend>
             <table>
                 <tr>
-                    <td></td>
-                    <td></td>
+                    <td>Name</td>
+                    <td><input type="text" name="name" id="" placeholder="Name"></td>
                 </tr>
                 <tr>
-                    <td></td>
-                    <td></td>
+                    <td>Surname</td>
+                    <td><input type="text" name="surname" id="" placeholder="Surname"></td>
                 </tr>
                 <tr>
-                    <td></td>
-                    <td></td>
+                    <td>Email</td>
+                    <td><input type="email" name="email" id="" placeholder="Email"></td>
                 </tr>
                 <tr>
-                    <td></td>
-                    <td></td>
+                    <td>Gender</td>
+                    <td>
+                        <label for="">Female</label><input type="radio" name="gender" id="">
+                        <label for="">Male</label><input type="radio" name="gender" id="">
+                        <label for="">Diverse</label><input type="radio" name="gender" id="">
+                    </td>
                 </tr>
                 <tr>
-                    <td></td>
-                    <td></td>
+                    <td>Picture</td>
+                    <td><input type="file" name="" id="" placeholder="Choose file"></td>
                 </tr>
                 <tr>
-                    <td></td>
-                    <td> </td>
+                    <td>Country</td>
+                    <td>
+                        <select name="contry" id="">
+                            <option value="Germany">Germany</option>
+                            <option value="France">France</option>
+                            <option value="USA">USA</option>
+                        </select>
+                    </td>
                 </tr>
                 <tr>
-                    <td></td>
-                    <td> </td>
+                    <td>Preferred languages</td>
+                    <td>
+                        <select multiple="languages" placeholder="(To choose more than one option use cmd key)">
+                            <option>HTML</option>
+                            <option>CSS</option>
+                            <option>JS</option>
+                            <option>React</option>
+                        </select>
+                    </td>
                 </tr>
 
                 <tr>
-                    <td></td>
-                    <td></td>
+                    <td>Fields of Activity</td>
+                    <td>
+                        <label for="">IT</label>
+                        <input type="checkbox" name="" id="">
+                        <label for="">Design</label>
+                        <input type="checkbox" name="" id="">
+                        <label for="">Other</label>
+                        <input type="checkbox" name="" id="">
+                    </td>
                 </tr>
                 <tr>
-                    <td colspan="2"></td>
+                    <td colspan="2">
+                        <input type="submit" value="Send">
+                        <input type="reset" value="Cancel">
+                    </td>
                 </tr>
             </table>
         </fieldset>
